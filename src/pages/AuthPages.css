@@ -973,5 +973,107 @@
   }
 }
 
+/* ============================================================
+   320px Ultra-Small Mobile Fix — Login Page Responsive Patch
+   ============================================================ */
+@media (max-width: 374px) {
+  .energy-auth-topbar {
+    padding: 0 10px !important;
+  }
+
+  .energy-topbar-brand span {
+    font-size: 13px !important;
+  }
+
+  .energy-auth-main {
+    padding: 12px 8px 32px !important;
+  }
+
+  .energy-auth-grid {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    gap: 16px !important;
+  }
+
+  .energy-login-card {
+    min-width: 0 !important;
+    width: 100% !important;
+    padding: 18px 12px !important;
+    box-sizing: border-box !important;
+    border-radius: 16px !important;
+  }
+
+  .energy-personas-panel {
+    min-width: 0 !important;
+    width: 100% !important;
+    padding: 16px 12px !important;
+    box-sizing: border-box !important;
+    border-radius: 16px !important;
+  }
+
+  .energy-submit-btn {
+    height: auto !important;
+    min-height: 44px !important;
+    padding: 10px 8px !important;
+    white-space: normal !important;
+    text-align: center !important;
+    flex-wrap: wrap !important;
+  }
+
+  .energy-submit-btn span {
+    font-size: 0.75rem !important;
+    word-break: break-word !important;
+    line-height: 1.3 !important;
+    text-align: center !important;
+  }
+
+  .sso-badge-header {
+    flex-wrap: wrap !important;
+    gap: 4px !important;
+  }
+
+  .sso-ecosystem-pill {
+    font-size: 8px !important;
+    padding: 2px 4px !important;
+    max-width: 130px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  .energy-footer-badge {
+    flex-direction: column !important;
+    gap: 3px !important;
+    text-align: center !important;
+    font-size: 0.62rem !important;
+  }
+
+  .energy-footer-badge span {
+    word-break: break-word !important;
+    white-space: normal !important;
+  }
+
+  .energy-persona-card {
+    min-width: 0 !important;
+    overflow: hidden !important;
+    height: auto !important;
+    min-height: 44px !important;
+  }
+
+  .persona-name {
+    font-size: 0.72rem !important;
+  }
+
+  .persona-sub {
+    font-size: 0.62rem !important;
+  }
+
+  .persona-badge-tag {
+    font-size: 0.58rem !important;
+    padding: 1px 4px !important;
+  }
+}
+
 
 
